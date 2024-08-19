@@ -1,9 +1,14 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Palatino, 'Times New Roman', 'Serif';
     margin: 0;
     padding: 0;
+    list-style-type: none;
+    text-decoration: none;
 }
 
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body{
     min-height: 100vh;
     display: flex;
@@ -11,15 +16,21 @@ body{
     justify-content: flex-end;
 }
 
+
 img{
     border-radius: 10px;
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
 }
 
-li, a{
-    list-style-type: none;
-    text-decoration: none;
+.header img{
+    margin: 0;
+    background-color: rgb(64, 69, 75);
+    height: 110px;
+    width: 120px;
+}
+
+li, .header-a{
     color: white;
 }
 
@@ -28,7 +39,7 @@ li, a{
     background-color: rgb(64, 69, 75);
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    align-items: center;
 }
 .header p{
     font-size: 22px;
@@ -39,6 +50,8 @@ ul{
     display: flex;
     gap: 20px;
 }
+
+
 
 .under-header{
     background-color:rgb(64, 69, 75);
@@ -61,10 +74,10 @@ ul{
 .under-header button{
     font-weight: 900;
     border-radius: 10px;
-    background-color: rgb(86, 86, 255);
+    background-color: rgb(64, 69, 75);
     border-color: rgb(101, 101, 247);
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 120px;
     padding: 8px 15px;
 }
 
@@ -81,10 +94,18 @@ ul{
 .placeholder{
     background-color: gray;
     display: flex;
+    flex-shrink: 100px;
     justify-content: center;
     align-items: center;
     height: 200px;
     width: 450px;
+    border-radius: 10px;
+    box-shadow:   rgb(177, 174, 174) 0 0 30px 10px;
+}
+.placeholder img{
+    height: 100%;
+    width: 100%;
+    
 }
 
 .random-information{
@@ -96,18 +117,24 @@ ul{
     padding: 20px 20px 70px 20px;
 }
 
-
+.random-information h1{
+    font-size: 35px;
+}
 .images{
     display: flex;
+    gap: 30px;
 }
 
 .random-information-title{
     display: flex;
 }
 
-.images .img-info{
+.images .img-info,
+a{
     max-width: 200px;
     text-align: center;
+    font-size: 24px;
+    color: black;
 }
 
 .quote{
@@ -131,6 +158,7 @@ ul{
     flex-direction: column;
     align-items: flex-end;
     flex: initial;
+    font-size: 18px;
 }
 
 .call-action{
@@ -165,7 +193,7 @@ ul{
     border-color: white;
     border-radius:10px;
     height: 40px;
-    width: 100px;
+    width: 120px;
 }
 
 .footer{
