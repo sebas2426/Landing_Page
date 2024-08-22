@@ -14,7 +14,10 @@ Check out the live version of my project [Here](https://sebas2426.github.io/Land
 - **HTML5**: For the structure of the webpage.
 - **CSS3**: For styling and layout, including the use of Flexbox.
 
-
-## Technologies Used
-- **HTML5**: For the structure of the webpage.
-- **CSS3**: For styling and layout, including the use of Flexbox.
+## How to Use
+To view this project locally:
+1. Clone this repository:  
+   `git clone https://github.com/your-username/Landing_Page.git`
+2. Navigate to the project directory:  
+   `cd Landing_Page`
+3. Open `index.html` in your web browser.
