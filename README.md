@@ -1,8 +1,20 @@
 # Landing_Page
 ## Description
-This is my first project using CSS Flexbox for the layout.
- The objective is simply to be able to put everything in the right way.
+Welcome to the **Nebula Boutique Landing Page** project! This is my first venture into using CSS Flexbox for layout design. The goal of this project is to create a stylish landing page for a fictional boutique named **Nebula Boutique**. 
+
+
+Through this project, I aim to demonstrate my growing skills in web development, particularly in HTML and CSS, with a focus on modern layout techniques.
+
 
 ## Live Preview
 Check out the live version of my project [Here](https://sebas2426.github.io/Landing_Page/)
 
+
+## Technologies Used
+- **HTML5**: For the structure of the webpage.
+- **CSS3**: For styling and layout, including the use of Flexbox.
+
+
+## Technologies Used
+- **HTML5**: For the structure of the webpage.
+- **CSS3**: For styling and layout, including the use of Flexbox.
